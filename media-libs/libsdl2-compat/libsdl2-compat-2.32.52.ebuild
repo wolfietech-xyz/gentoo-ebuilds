@@ -17,9 +17,9 @@ KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~loong ~mips ~ppc ~ppc64 ~riscv ~sparc
 IUSE="alsa aqua cpu_flags_ppc_altivec cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 dbus doc fcitx gles1 gles2 +haptic ibus jack +joystick pipewire wayland sdl3 test" # example IUSE flags.
 RESTRICT="!test? ( test )"
 
-DEPEND="virtual/opengl >=media-libs/sdl3-3.0"
-BDEPEND="dev-util/cmake >=media-libs/sdl3-3.0"
-RDEPEND="virtual/opengl >=media-libs/sdl3-3.0 virtual/libc"
+DEPEND="virtual/opengl >=media-libs/libsdl3-3.0"
+BDEPEND="dev-build/cmake >=media-libs/libsdl3-3.0"
+RDEPEND="virtual/opengl >=media-libs/libsdl3-3.0 virtual/libc"
 
 REPLACES=">=media-libs/libsdl2-2.0" # Adjust version as needed
 PROVIDE="media-libs/libsdl2-${PV}"
