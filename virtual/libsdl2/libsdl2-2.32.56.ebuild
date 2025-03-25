@@ -11,7 +11,7 @@ DESCRIPTION="Virtual package for libsdl2, encompassing both native and SDL3 via 
 HOMEPAGE="https://www.libsdl.org/"
 LICENSE="ZLIB"
 SLOT="0"
-KEYWORDS="~alpha ~hppa ~loong ~mips ~riscv ~s390 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris"
+KEYWORDS="~alpha amd64 arm arm64 ~hppa ~loong ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris"
 RESTRICT="primaryuri"
 
 RDEPEND="|| ( media-libs/libsdl2[${MULTILIB_USEDEP}] media-libs/libsdl2-compat[${MULTILIB_USEDEP}] )"
