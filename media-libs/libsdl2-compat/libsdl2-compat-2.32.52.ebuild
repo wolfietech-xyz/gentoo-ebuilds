@@ -41,7 +41,7 @@ RDEPEND="virtual/opengl >=media-libs/libsdl3-3.0 virtual/libc"
 
 
 REPLACES="media-libs/libsdl2"
-PROVIDE="media-libs/libsdl2-${PV}"
+PROVIDE="media-libs/libsdl2-2.32.0"
 CONFLICTS="media-libs/libsdl2 #libsdl2-compat replaces libsdl2"
 
 MULTILIB_WRAPPED_HEADERS=(
