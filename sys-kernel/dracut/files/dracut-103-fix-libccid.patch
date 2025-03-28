@@ -1,0 +1,15 @@
+--- a/modules.d/91pcsc/module-setup.sh	2024-07-13 18:26:50.000000000 -0700
++++ b/modules.d/91pcsc/module-setup.sh	2025-03-27 16:53:24.682603443 -0700
+@@ -48,9 +48,9 @@
+         {"tls/$_arch/",tls/,"$_arch/",}"onepin-opensc-pkcs11.so" \
+         {"tls/$_arch/",tls/,"$_arch/",}"pkcs11/opensc-pkcs11.so" \
+         {"tls/$_arch/",tls/,"$_arch/",}"pkcs11/onepin-opensc-pkcs11.so" \
+-        {"tls/$_arch/",tls/,"$_arch/",}"pcsc/drivers/ifd-ccid.bundle/Contents/Info.plist" \
+-        {"tls/$_arch/",tls/,"$_arch/",}"pcsc/drivers/ifd-ccid.bundle/Contents/Linux/libccid.so" \
+-        {"tls/$_arch/",tls/,"$_arch/",}"pcsc/drivers/serial/libccidtwin.so" \
++        {"tls/$_arch/",tls/,"$_arch/",}"readers/usb/ifd-ccid.bundle/Contents/Info.plist" \
++        {"tls/$_arch/",tls/,"$_arch/",}"readers/usb/ifd-ccid.bundle/Contents/Linux/libccid.so" \
++        {"tls/$_arch/",tls/,"$_arch/",}"readers/usb/serial/libccidtwin.so" \
+         {"tls/$_arch/",tls/,"$_arch/",}"libpcsclite.so.*"
+ 
+     # Install the hosts local user configurations if enabled.

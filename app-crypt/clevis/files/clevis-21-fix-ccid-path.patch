@@ -1,0 +1,14 @@
+diff '--color=auto' -ur a/src/luks/dracut/clevis-pin-pkcs11/module-setup.sh.in b/src/luks/dracut/clevis-pin-pkcs11/module-setup.sh.in
+--- a/src/luks/dracut/clevis-pin-pkcs11/module-setup.sh.in	2024-09-24 01:27:06.000000000 -0700
++++ b/src/luks/dracut/clevis-pin-pkcs11/module-setup.sh.in	2025-03-27 17:09:17.344405486 -0700
+@@ -36,8 +36,8 @@
+         socat \
+         tail \
+         tr \
+-        /usr/lib64/pcsc/drivers/ifd-ccid.bundle/Contents/Linux/libccid.so \
+-        /usr/lib64/pcsc/drivers/ifd-ccid.bundle/Contents/Info.plist \
++        /usr/lib64/readers/usb/ifd-ccid.bundle/Contents/Linux/libccid.so \
++        /usr/lib64/readers/usb/ifd-ccid.bundle/Contents/Info.plist \
+         /usr/lib64/opensc-pkcs11.so \
+         /usr/lib64/pkcs11/opensc-pkcs11.so \
+         /usr/lib64/libopensc.so* \
