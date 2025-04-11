@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="unknown">
+		<email>gentoo@wolfietech.dev</email>
+		<name>WolfieTech</name>
+		<description>needed renamed packages to be updated</description>
+	</maintainer>
+	<uses>
+		<flag name="tracker">Builds libtinysparql-3 using the legacy <pkg>app-misc/tracker</pkg> indexer package</flag>
+		<flag name="tinysparql">Builds libtinysparql-3 using the <pkg>app-misc/tinysparql</pkg> indexer package<flag>
+	</use>
+</pkgmetadata>
